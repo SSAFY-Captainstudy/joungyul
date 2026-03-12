@@ -1,4 +1,5 @@
 import sys
+sys.stdin = open("input.txt", "r")
 
 def solve(n, r, c):
     if n == 0:
